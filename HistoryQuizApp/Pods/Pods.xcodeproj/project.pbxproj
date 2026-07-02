@@ -1,0 +1,1712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004152E96120BACC7DA95D13CD882911 /* RTSpinKitAnimating.h in Headers */ = {isa = PBXBuildFile; fileRef = A3039E744A2F815C5E1776B42553D6E2 /* RTSpinKitAnimating.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0141DD1FD6D15EAE9368CAAA4C10B96E /* RTSpinKitFadingCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFEFEAC1AA426A95DC22575AB02B150 /* RTSpinKitFadingCircleAnimation.m */; };
+		02FD0CD1A19C576EE0B85CB8C17DA996 /* RTSpinKitChasingDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 54DCD89C7AAAF5F2401E1B300188C4E1 /* RTSpinKitChasingDotsAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		041947EA9F9D51C1CD98B02D547FD624 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1749EA4E959D6474F78ACAED642DBC4 /* IQInvocation.swift */; };
+		06FA81C5AB9C8C8790941CED9757F54F /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994E121F60DC248DB320A9D5DFF9E4C /* IQUIView+IQKeyboardToolbar.swift */; };
+		0713E45D0928BC34F1BBB925105C2064 /* Pods-HistoryQuizApp-HistoryQuizAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ADE51A8B5DDB16448AC9574C95E6DF /* Pods-HistoryQuizApp-HistoryQuizAppUITests-dummy.m */; };
+		0A177CD29EF877171098DC020E4EF19D /* RTSpinKitThreeBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0391419D81D6938661D049F280D9D40F /* RTSpinKitThreeBounceAnimation.m */; };
+		0F18D0B2F7EB12EACD4BFB4E10FA9E28 /* RTSpinKitFadingCircleAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 06594075474EFADCF7D69A4A7A81EB83 /* RTSpinKitFadingCircleAltAnimation.m */; };
+		146F07A06ACB7A3279D37B0549BC502C /* RTSpinKitCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE6BF9AF937AF75123EC1FA45C6446 /* RTSpinKitCircleAnimation.m */; };
+		16A57F4EC12A03D5A8A7ED72725C68F4 /* RTSpinKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D93C08F7776A0E98EA9A1992CCB6D /* RTSpinKitUtils.m */; };
+		1A31D6F1F16CABC96DB7AD672E4CCBA4 /* Pods-HistoryQuizAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66907806F63F7573834710E5F257EE45 /* Pods-HistoryQuizAppTests-dummy.m */; };
+		26734CEA78486B9C6C0D66D8E1798175 /* RTSpinKitWaveAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 54755C90AE320D91DEA2503E2F58B788 /* RTSpinKitWaveAnimation.m */; };
+		296C0369EA196BEB414177540818E8A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */; };
+		2AA6DC9706CF4F228389978F43D49351 /* IQKeyboardManagerSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D8069D3964814114ACEC3084C010B59 /* IQKeyboardManagerSwift.bundle */; };
+		2AF0369096BFF874D57F0F17FF2FDE23 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8133FF77222935677090478CF9561844 /* IQNSArray+Sort.swift */; };
+		2DB68824892737B191D12CF8B36E0FD9 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098C5D9599CEC7C3CA93E94E69370FD /* IQKeyboardReturnKeyHandler.swift */; };
+		2E70B4A89770BC7256DE90C1540459CC /* RTSpinKitArcAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B51D3F0B581FA60EA7413D8DC31C4228 /* RTSpinKitArcAnimation.m */; };
+		315AED2CB54B7752129BE7F50068D21C /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D1041FB46A1F763768036D19176A7B /* IQKeyboardManagerSwift-dummy.m */; };
+		3206CDE0728C4591DBA7AE3757B53A57 /* RTSpinKitArcAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 629193CA2E1D8C56649D1DDCF7581009 /* RTSpinKitArcAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36F180FD42DA10DCEF39A22D5D5FDF7B /* RTSpinKitPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE3E6FDC4514B9A79B4A59AD5B95228 /* RTSpinKitPulseAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38C966A1CDC5829B68FFB5652112EBC4 /* RTSpinKitBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 690AABDBBA9E040365AD847EF637804D /* RTSpinKitBounceAnimation.m */; };
+		3964BAE860274DC785719EDD904430F0 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2B79FD1E48FE06D42BC34967C60C7 /* IQKeyboardManagerConstants.swift */; };
+		3D1B567A3130FFE5B99DB2CBEF8335B1 /* RTSpinKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E06FBA25EC086EBDF5059FC495989C /* RTSpinKitView.m */; };
+		4256601F4D7284AD79491F33550B3249 /* CRNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C5B4F8BC03572A54649A3AF74511A6 /* CRNotifications.swift */; };
+		44299D6A8123CFD811186E1F585ABD2E /* RTSpinKitWordPressAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8968DB482375585131CB594C78D63073 /* RTSpinKitWordPressAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4493A05CC1FDD7E01057FE4CFB81254E /* Pods-HistoryQuizApp-HistoryQuizAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C042435706951AAABDD37F0DDB0DE46 /* Pods-HistoryQuizApp-HistoryQuizAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F494124F3E163A703F0150867CA736 /* RTSpinKitUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B29F7916F9A5429DFC6FF6401F66599A /* RTSpinKitUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4856237C39EB285833ABE79407F3F6F1 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85B9CEFD1A33C8993B5B7B975003A1 /* IQTextView.swift */; };
+		491024358B3CE13FB67594E928B9AE81 /* RTSpinKitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 941D36A428C8C199338B0352329312CD /* RTSpinKitView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EC47881FEB5159E293C8596CBAC3E3B /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 162C62F8484E413214F398EF837A7182 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53469CB1671AEAEA11404D9DDE737A78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		5D76AB4D7BD79747511B3584008A5E02 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D455933906B088C1E5C4F7F9A12566B0 /* IQTitleBarButtonItem.swift */; };
+		5DCAEEB2979566882ADADC9D90FB4A1A /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E91D976BDE36719899B09CA85F6D11 /* DeviceManager.swift */; };
+		602C7A173E122FDD6F4BE463B8D8337C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		615FD064D2CFEC7FAE86D285BF45C48B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */; };
+		66F6D80684B3F931369CCA4A63AF0A62 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5FD61BAE4AEE9CD7F6A0C5928C392D /* IQPreviousNextView.swift */; };
+		710CBCD5C3799F4B665874C9C7148CDD /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6C96FF9105ABA6A24D30800FEBEEA /* IQToolbar.swift */; };
+		7672FD8D4E471D0E89D9394980AFD3CA /* RTSpinKitArcAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B77584AE93645035763E965EB354FAC9 /* RTSpinKitArcAltAnimation.m */; };
+		782E33A78519114B30FBA79658A7F422 /* RTSpinKitThreeBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE4BCA1DE0E9C0C82E7132957AD5FC5 /* RTSpinKitThreeBounceAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		79C113AD67314558C1885899493C9AC7 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22D0A5A1F72629280966FF837558C9C /* IQKeyboardManagerConstantsInternal.swift */; };
+		7CBD0775A6CBD2BECEBEF0D67C09958D /* CRNotifications-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C1CB521C1BDA3A899EBB8FED5AACC0 /* CRNotifications-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DC3F884091AD7B0ABF8C261B3EDACBA /* SpinKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1220DAEF8C7CC6F652165426337C0E /* SpinKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EF13AC0792930953459F07E00B10647 /* RTSpinKitCircleFlipAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE326DC5DB429B5247695E6AE1D0790 /* RTSpinKitCircleFlipAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		831C4B72B434D2BCC2AE13697166250C /* SpinKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE59451D162C820868AB696A0302B1D /* SpinKit-dummy.m */; };
+		8B6A930F3D3A8F7874CAF33761333205 /* CRNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7EAC54E1577E81301CE037EA5EF1EB /* CRNotifications-dummy.m */; };
+		8CF0682FC37FDD28A841040A6B3443E7 /* CRNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766974B48F6BB2BC33EA6BB3CE5E9CAA /* CRNotification.swift */; };
+		8DF7F6CBB38B2D0CCAFBD1337959F4C6 /* RTSpinKitBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1F7D5BE65FE7E93C9E27C71A066938 /* RTSpinKitBounceAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94458FF310D8CFEA7900372A80D817BB /* RTSpinKitFadingCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A12044187C59064165A5B7E75575C8C /* RTSpinKitFadingCircleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95F4E2D2CB8D07C14567239542CE50EF /* RTSpinKitPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B34B89EBD23CF947FD16EACDE12085 /* RTSpinKitPulseAnimation.m */; };
+		98460397CEFCA156E62CA55B297C11BC /* RTSpinKit9CubeGridAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BBADE4061572CA9FD81C0941BA1E77 /* RTSpinKit9CubeGridAnimation.m */; };
+		99FF852E435E722345F62ABC5014E3FB /* RTSpinKitFadingCircleAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 369DC607DC5C08FEE275C796D8DEFD0B /* RTSpinKitFadingCircleAltAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A07CE8DC5D8BCE04F2ADED7CE0E87CEC /* RTSpinKitPlaneAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE2F530C62E74501EFF61C144D374D8 /* RTSpinKitPlaneAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0F4F31C7E3BBF6667C25046C9F57E91 /* RTSpinKitPlaneAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5690695617E5847767F5F5EB86C1E8A1 /* RTSpinKitPlaneAnimation.m */; };
+		A1E8BDBAB0FE882AC409A40BF3BD5C01 /* RTSpinKitCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 767A6D3A09D8613C9F76DFBFA78EBFE6 /* RTSpinKitCircleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A55E4B6D2843617184AE9FD646FA6C2E /* RTSpinKitChasingDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3557B7C1F727755897F431922656632D /* RTSpinKitChasingDotsAnimation.m */; };
+		ABF378E191D5711CC99640AEBD39F5A6 /* RTSpinKitCircleFlipAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D4C1A375CC0903C1EA1694B64962A1 /* RTSpinKitCircleFlipAnimation.m */; };
+		AECEF90A17592166FC57790B2767110E /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C400AA34B1C3D546722A3D5DEED12 /* IQUIViewController+Additions.swift */; };
+		AF99DDC3D28D726ED4B12A56D9194972 /* Pods-HistoryQuizApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDF40B6AE2D3DF8D502895A8AC522C /* Pods-HistoryQuizApp-dummy.m */; };
+		B4A9249CAC3A24C0977519E105B5FA7B /* RTSpinKitWordPressAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB8307BD84D7719D699FE280961076 /* RTSpinKitWordPressAnimation.m */; };
+		B5A6EF561A42456C0D089A8898A5D65F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		BBDDAE7BFAE455F5ED0DF7EA10F89570 /* CRNotificationsMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C46C0136B3B10F9A5F1AC73348560BD /* CRNotificationsMedia.xcassets */; };
+		C3009402C4415F80BE80856728C8EFA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */; };
+		C6211564D6F304C894C04CDAB81B2632 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3315C1B47F1C3654B03D1D76D42DE09 /* IQUIScrollView+Additions.swift */; };
+		CA8AB9F08CC9791CE7C624AFDB5056A6 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9FD7050E51D4C82CD0F0C15ED03154 /* IQUITextFieldView+Additions.swift */; };
+		CE10D2DEAFC0AAE6F7C7B8FEAED91658 /* IQKeyboardManagerSwift.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498D899F7A79CB5A6DA4C92D1734083B /* IQKeyboardManagerSwift.xcassets */; };
+		CE34683AB20D55BF88D58EEACADB1EC5 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA653FF4EE8AB889878E7DF5CBD3F10B /* IQUIView+Hierarchy.swift */; };
+		D0055D1D08F08EBB5E7F6D55C9A43A05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		DBC2DDD41A0940D615CEE9C32235F6E9 /* RTSpinKitWanderingCubesAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3224D25059227329D92943F3B7F5CE5A /* RTSpinKitWanderingCubesAnimation.m */; };
+		DCA9EBFD90A7AF3E2C94E3C5EA1E4A8F /* RTSpinKitWaveAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 43456B55F459BB06C1AC4A26BEAB816C /* RTSpinKitWaveAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2F3C0D3FC90007B054D5C3C07763251 /* CRNotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9E9085D5E0C5C717FD7A96359EC4C /* CRNotificationType.swift */; };
+		E3892BAF47F6348037BB036239D465D9 /* RTSpinKitArcAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A643ED6AA8700A7546820DB058359BE /* RTSpinKitArcAltAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5037C1C015AA1A7B35B4805057B42D8 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451A7658BF410C8F60D24539F9BB5ED /* IQBarButtonItem.swift */; };
+		EB35A4F00D35F484A4A42F25BD21BBD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		EFEED46657110836ADE86D11A600C6B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		F13B74C851A326EF717D74218B8DB89C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B3C364553DA7839A05AAE49C7B315 /* Colors.swift */; };
+		F1DA3312736A90F24B64C46699D5DBB0 /* Pods-HistoryQuizApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A59FA59391ED4F301D6B176F8FEC89 /* Pods-HistoryQuizApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F49BA7A155BBFD047B1670928E73BAD6 /* Pods-HistoryQuizAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 866D27F9405DA4BB6F93F4C3DCA4D0F6 /* Pods-HistoryQuizAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6FB62E5C219A1FA1168AE6C51F1B200 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */; };
+		FD00E668EA6581DC9D5DD886B678F036 /* RTSpinKitWanderingCubesAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8700E2F31CB57A4CF72CEE455FE322 /* RTSpinKitWanderingCubesAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDCF9E2829F2B5C15AB7519E864433D4 /* RTSpinKit9CubeGridAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3304C549313ECBB8181330B6923BC402 /* RTSpinKit9CubeGridAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE6AD29B2189E14E0F948BAE55BA0AFB /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D9DEEEA2A99B976A98A08FAA13722 /* IQKeyboardManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		751A950FAD94F9F89E408D8BD73C503F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 337A0334EDE80EDB234AEDC1BD6F840B;
+			remoteInfo = "Pods-HistoryQuizApp";
+		};
+		7DE39AE14361872A4055CD3978D2A35D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C567419A415644681697B685E6C222E0;
+			remoteInfo = SpinKit;
+		};
+		934B11E63C9624AB82E803643326709B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C567419A415644681697B685E6C222E0;
+			remoteInfo = SpinKit;
+		};
+		978B17EDB203DECC8A33CDAF658CF191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		99DEC5D1F77FCC5AF792AF90873A15FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 982A68D37F5DCBC1FC1FDC0BB2F0EB8E;
+			remoteInfo = "IQKeyboardManagerSwift-IQKeyboardManagerSwift";
+		};
+		B98FB4AA85CFC343CD95C164DDEA82B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		EA288F449177FE49BD2AC82CA5DF2AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C67B289452A03DB2BFAA63535D7BF3A;
+			remoteInfo = CRNotifications;
+		};
+		FAFA418B8F83A5E4345FEE61184E76C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C67B289452A03DB2BFAA63535D7BF3A;
+			remoteInfo = CRNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0391419D81D6938661D049F280D9D40F /* RTSpinKitThreeBounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitThreeBounceAnimation.m; path = SpinKit/Animations/RTSpinKitThreeBounceAnimation.m; sourceTree = "<group>"; };
+		06594075474EFADCF7D69A4A7A81EB83 /* RTSpinKitFadingCircleAltAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitFadingCircleAltAnimation.m; path = SpinKit/Animations/RTSpinKitFadingCircleAltAnimation.m; sourceTree = "<group>"; };
+		0A643ED6AA8700A7546820DB058359BE /* RTSpinKitArcAltAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitArcAltAnimation.h; path = SpinKit/Animations/RTSpinKitArcAltAnimation.h; sourceTree = "<group>"; };
+		0BE326DC5DB429B5247695E6AE1D0790 /* RTSpinKitCircleFlipAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitCircleFlipAnimation.h; path = SpinKit/Animations/RTSpinKitCircleFlipAnimation.h; sourceTree = "<group>"; };
+		0CE55285886717234C74C3C4D8D1FB13 /* ResourceBundle-IQKeyboardManagerSwift-IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-IQKeyboardManagerSwift-IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
+		110F1B726EF504BBC9B7896DED9C9342 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		11E06FBA25EC086EBDF5059FC495989C /* RTSpinKitView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitView.m; path = SpinKit/RTSpinKitView.m; sourceTree = "<group>"; };
+		11EC55364FD751AA3F7C88D7C9E00E76 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		12ADE51A8B5DDB16448AC9574C95E6DF /* Pods-HistoryQuizApp-HistoryQuizAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HistoryQuizApp-HistoryQuizAppUITests-dummy.m"; sourceTree = "<group>"; };
+		162C62F8484E413214F398EF837A7182 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		19BBADE4061572CA9FD81C0941BA1E77 /* RTSpinKit9CubeGridAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKit9CubeGridAnimation.m; path = SpinKit/Animations/RTSpinKit9CubeGridAnimation.m; sourceTree = "<group>"; };
+		20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		221F320608921C938740DF56B7ED1F18 /* CRNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRNotifications-prefix.pch"; sourceTree = "<group>"; };
+		22B34B89EBD23CF947FD16EACDE12085 /* RTSpinKitPulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitPulseAnimation.m; path = SpinKit/Animations/RTSpinKitPulseAnimation.m; sourceTree = "<group>"; };
+		24B6C96FF9105ABA6A24D30800FEBEEA /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		264BA1A6091DB51128C42E7A1AAD3C7C /* Pods-HistoryQuizApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HistoryQuizApp-Info.plist"; sourceTree = "<group>"; };
+		2B5091A556186CF683D1404935CEC366 /* Pods-HistoryQuizApp-HistoryQuizAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HistoryQuizApp-HistoryQuizAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C46C0136B3B10F9A5F1AC73348560BD /* CRNotificationsMedia.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CRNotificationsMedia.xcassets; path = CRNotifications/Assets/CRNotificationsMedia.xcassets; sourceTree = "<group>"; };
+		3224D25059227329D92943F3B7F5CE5A /* RTSpinKitWanderingCubesAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitWanderingCubesAnimation.m; path = SpinKit/Animations/RTSpinKitWanderingCubesAnimation.m; sourceTree = "<group>"; };
+		3304C549313ECBB8181330B6923BC402 /* RTSpinKit9CubeGridAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKit9CubeGridAnimation.h; path = SpinKit/Animations/RTSpinKit9CubeGridAnimation.h; sourceTree = "<group>"; };
+		3557B7C1F727755897F431922656632D /* RTSpinKitChasingDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitChasingDotsAnimation.m; path = SpinKit/Animations/RTSpinKitChasingDotsAnimation.m; sourceTree = "<group>"; };
+		369DC607DC5C08FEE275C796D8DEFD0B /* RTSpinKitFadingCircleAltAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitFadingCircleAltAnimation.h; path = SpinKit/Animations/RTSpinKitFadingCircleAltAnimation.h; sourceTree = "<group>"; };
+		378D9DEEEA2A99B976A98A08FAA13722 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		38E96A29C62972959D83ECEADEB02612 /* Pods_HistoryQuizApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HistoryQuizApp.framework; path = "Pods-HistoryQuizApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A12044187C59064165A5B7E75575C8C /* RTSpinKitFadingCircleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitFadingCircleAnimation.h; path = SpinKit/Animations/RTSpinKitFadingCircleAnimation.h; sourceTree = "<group>"; };
+		3FCF81C97C209DB9835DB29664CCF4A8 /* Pods-HistoryQuizAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HistoryQuizAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4242991E65A937E023BB76884718EA08 /* SpinKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SpinKit-Info.plist"; sourceTree = "<group>"; };
+		42D4C1A375CC0903C1EA1694B64962A1 /* RTSpinKitCircleFlipAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitCircleFlipAnimation.m; path = SpinKit/Animations/RTSpinKitCircleFlipAnimation.m; sourceTree = "<group>"; };
+		43456B55F459BB06C1AC4A26BEAB816C /* RTSpinKitWaveAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitWaveAnimation.h; path = SpinKit/Animations/RTSpinKitWaveAnimation.h; sourceTree = "<group>"; };
+		498D899F7A79CB5A6DA4C92D1734083B /* IQKeyboardManagerSwift.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = IQKeyboardManagerSwift.xcassets; path = IQKeyboardManagerSwift/Resources/IQKeyboardManagerSwift.xcassets; sourceTree = "<group>"; };
+		4994E121F60DC248DB320A9D5DFF9E4C /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		4DEDF40B6AE2D3DF8D502895A8AC522C /* Pods-HistoryQuizApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HistoryQuizApp-dummy.m"; sourceTree = "<group>"; };
+		4E7EAC54E1577E81301CE037EA5EF1EB /* CRNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRNotifications-dummy.m"; sourceTree = "<group>"; };
+		50166D132CDE93C76669755AA2225A66 /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
+		51D1041FB46A1F763768036D19176A7B /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		537C400AA34B1C3D546722A3D5DEED12 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		540E81FB5C0E86CFA2B901D4127AD5A0 /* Pods-HistoryQuizApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HistoryQuizApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54755C90AE320D91DEA2503E2F58B788 /* RTSpinKitWaveAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitWaveAnimation.m; path = SpinKit/Animations/RTSpinKitWaveAnimation.m; sourceTree = "<group>"; };
+		54DCD89C7AAAF5F2401E1B300188C4E1 /* RTSpinKitChasingDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitChasingDotsAnimation.h; path = SpinKit/Animations/RTSpinKitChasingDotsAnimation.h; sourceTree = "<group>"; };
+		5690695617E5847767F5F5EB86C1E8A1 /* RTSpinKitPlaneAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitPlaneAnimation.m; path = SpinKit/Animations/RTSpinKitPlaneAnimation.m; sourceTree = "<group>"; };
+		56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5926B4E2126C41294C8AC66ABEB00FBF /* Pods-HistoryQuizAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HistoryQuizAppTests.modulemap"; sourceTree = "<group>"; };
+		5A67E7E3B0EDCBC2B3B6FED2AA27AA83 /* SpinKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SpinKit.framework; path = SpinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2D93C08F7776A0E98EA9A1992CCB6D /* RTSpinKitUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitUtils.m; path = SpinKit/RTSpinKitUtils.m; sourceTree = "<group>"; };
+		5B92DDBB1638396420E6305404A0A34C /* Pods_HistoryQuizAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HistoryQuizAppTests.framework; path = "Pods-HistoryQuizAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF2B9C3395145CA27540E19A85926A7 /* CRNotifications.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRNotifications.xcconfig; sourceTree = "<group>"; };
+		629193CA2E1D8C56649D1DDCF7581009 /* RTSpinKitArcAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitArcAnimation.h; path = SpinKit/Animations/RTSpinKitArcAnimation.h; sourceTree = "<group>"; };
+		63C1CB521C1BDA3A899EBB8FED5AACC0 /* CRNotifications-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRNotifications-umbrella.h"; sourceTree = "<group>"; };
+		63E2B79FD1E48FE06D42BC34967C60C7 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		66907806F63F7573834710E5F257EE45 /* Pods-HistoryQuizAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HistoryQuizAppTests-dummy.m"; sourceTree = "<group>"; };
+		690AABDBBA9E040365AD847EF637804D /* RTSpinKitBounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitBounceAnimation.m; path = SpinKit/Animations/RTSpinKitBounceAnimation.m; sourceTree = "<group>"; };
+		6A0E25B1742894D99AABA34CC5D1D415 /* Pods-HistoryQuizAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HistoryQuizAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BE4BCA1DE0E9C0C82E7132957AD5FC5 /* RTSpinKitThreeBounceAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitThreeBounceAnimation.h; path = SpinKit/Animations/RTSpinKitThreeBounceAnimation.h; sourceTree = "<group>"; };
+		6D7D6EB6A05F75CC7905A1635692765E /* Pods-HistoryQuizApp-HistoryQuizAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HistoryQuizApp-HistoryQuizAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DF3E25196F80E42717E29558D691C95 /* CRNotifications.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CRNotifications.modulemap; sourceTree = "<group>"; };
+		6DFA0E2A0FB5CA50613502EC635F15A8 /* Pods-HistoryQuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HistoryQuizApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6F9FD7050E51D4C82CD0F0C15ED03154 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		7486B73DF4A5F8D01AB4451A4DBA7A4B /* CRNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CRNotifications.framework; path = CRNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C19A7D701E55D265A6D7DAA724C515 /* Pods-HistoryQuizApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HistoryQuizApp.modulemap"; sourceTree = "<group>"; };
+		762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		766974B48F6BB2BC33EA6BB3CE5E9CAA /* CRNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CRNotification.swift; path = CRNotifications/Classes/CRNotification.swift; sourceTree = "<group>"; };
+		767A6D3A09D8613C9F76DFBFA78EBFE6 /* RTSpinKitCircleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitCircleAnimation.h; path = SpinKit/Animations/RTSpinKitCircleAnimation.h; sourceTree = "<group>"; };
+		7795CF614D9EC37937377CB974FBDC89 /* Pods-HistoryQuizApp-HistoryQuizAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HistoryQuizApp-HistoryQuizAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A1220DAEF8C7CC6F652165426337C0E /* SpinKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinKit-umbrella.h"; sourceTree = "<group>"; };
+		7A810BD1DF371C2A44212A4E7B287072 /* Pods-HistoryQuizApp-HistoryQuizAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HistoryQuizApp-HistoryQuizAppUITests.modulemap"; sourceTree = "<group>"; };
+		7AE2F530C62E74501EFF61C144D374D8 /* RTSpinKitPlaneAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitPlaneAnimation.h; path = SpinKit/Animations/RTSpinKitPlaneAnimation.h; sourceTree = "<group>"; };
+		7AE59451D162C820868AB696A0302B1D /* SpinKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpinKit-dummy.m"; sourceTree = "<group>"; };
+		8133FF77222935677090478CF9561844 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		866D27F9405DA4BB6F93F4C3DCA4D0F6 /* Pods-HistoryQuizAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HistoryQuizAppTests-umbrella.h"; sourceTree = "<group>"; };
+		8968DB482375585131CB594C78D63073 /* RTSpinKitWordPressAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitWordPressAnimation.h; path = SpinKit/Animations/RTSpinKitWordPressAnimation.h; sourceTree = "<group>"; };
+		8ADB8307BD84D7719D699FE280961076 /* RTSpinKitWordPressAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitWordPressAnimation.m; path = SpinKit/Animations/RTSpinKitWordPressAnimation.m; sourceTree = "<group>"; };
+		8B148ACD56FB7CE575D1388ADCB7823A /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
+		8C8700E2F31CB57A4CF72CEE455FE322 /* RTSpinKitWanderingCubesAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitWanderingCubesAnimation.h; path = SpinKit/Animations/RTSpinKitWanderingCubesAnimation.h; sourceTree = "<group>"; };
+		8D8069D3964814114ACEC3084C010B59 /* IQKeyboardManagerSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = IQKeyboardManagerSwift.bundle; path = "IQKeyboardManagerSwift-IQKeyboardManagerSwift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9098C5D9599CEC7C3CA93E94E69370FD /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		910FCD66D8BF9905857CB0FA0EA95F6B /* SpinKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinKit-prefix.pch"; sourceTree = "<group>"; };
+		941D36A428C8C199338B0352329312CD /* RTSpinKitView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitView.h; path = SpinKit/RTSpinKitView.h; sourceTree = "<group>"; };
+		988034B58A3A26FE4334ACB19837E89D /* Pods-HistoryQuizAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HistoryQuizAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C042435706951AAABDD37F0DDB0DE46 /* Pods-HistoryQuizApp-HistoryQuizAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HistoryQuizApp-HistoryQuizAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F5FD61BAE4AEE9CD7F6A0C5928C392D /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		A0425A7C92194CD8A028D5CEE4042EE9 /* Pods-HistoryQuizApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HistoryQuizApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		A22D0A5A1F72629280966FF837558C9C /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		A3039E744A2F815C5E1776B42553D6E2 /* RTSpinKitAnimating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitAnimating.h; path = SpinKit/RTSpinKitAnimating.h; sourceTree = "<group>"; };
+		A7BAE178A94B72DCE25C40E1ADF95C77 /* Pods_HistoryQuizApp_HistoryQuizAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HistoryQuizApp_HistoryQuizAppUITests.framework; path = "Pods-HistoryQuizApp-HistoryQuizAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA85B9CEFD1A33C8993B5B7B975003A1 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		B092F6DE7E4EB245DD232743DF80E975 /* Pods-HistoryQuizApp-HistoryQuizAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HistoryQuizApp-HistoryQuizAppUITests-Info.plist"; sourceTree = "<group>"; };
+		B0CE6BF9AF937AF75123EC1FA45C6446 /* RTSpinKitCircleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitCircleAnimation.m; path = SpinKit/Animations/RTSpinKitCircleAnimation.m; sourceTree = "<group>"; };
+		B29F7916F9A5429DFC6FF6401F66599A /* RTSpinKitUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitUtils.h; path = SpinKit/RTSpinKitUtils.h; sourceTree = "<group>"; };
+		B51D3F0B581FA60EA7413D8DC31C4228 /* RTSpinKitArcAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitArcAnimation.m; path = SpinKit/Animations/RTSpinKitArcAnimation.m; sourceTree = "<group>"; };
+		B77584AE93645035763E965EB354FAC9 /* RTSpinKitArcAltAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitArcAltAnimation.m; path = SpinKit/Animations/RTSpinKitArcAltAnimation.m; sourceTree = "<group>"; };
+		B8A8F153E4BEC7E4CCF10399963EF955 /* SpinKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpinKit.modulemap; sourceTree = "<group>"; };
+		B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BD9C5BAC9D982618071DA3E6AFC9CE09 /* Pods-HistoryQuizAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HistoryQuizAppTests-Info.plist"; sourceTree = "<group>"; };
+		C1749EA4E959D6474F78ACAED642DBC4 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		CA653FF4EE8AB889878E7DF5CBD3F10B /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		CB73188927721AD26263E2DEE8C0F394 /* Pods-HistoryQuizApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HistoryQuizApp-frameworks.sh"; sourceTree = "<group>"; };
+		CC1F7D5BE65FE7E93C9E27C71A066938 /* RTSpinKitBounceAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitBounceAnimation.h; path = SpinKit/Animations/RTSpinKitBounceAnimation.h; sourceTree = "<group>"; };
+		CCFEFEAC1AA426A95DC22575AB02B150 /* RTSpinKitFadingCircleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitFadingCircleAnimation.m; path = SpinKit/Animations/RTSpinKitFadingCircleAnimation.m; sourceTree = "<group>"; };
+		CD80D9CF583CA6A7BEA5B7649F33CCFB /* Pods-HistoryQuizApp-HistoryQuizAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HistoryQuizApp-HistoryQuizAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CFB9E9085D5E0C5C717FD7A96359EC4C /* CRNotificationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CRNotificationType.swift; path = CRNotifications/Classes/CRNotificationType.swift; sourceTree = "<group>"; };
+		CFCE934BE1859E5FEFE652B483055133 /* CRNotifications-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CRNotifications-Info.plist"; sourceTree = "<group>"; };
+		D455933906B088C1E5C4F7F9A12566B0 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		DFD1C74C02379C662AF44210C9F01279 /* Pods-HistoryQuizApp-HistoryQuizAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HistoryQuizApp-HistoryQuizAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2FEC7DE7B99D37B8A9A3236B368B79F /* Pods-HistoryQuizApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HistoryQuizApp.release.xcconfig"; sourceTree = "<group>"; };
+		E451A7658BF410C8F60D24539F9BB5ED /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		E5A00461F3F5D72D196A8D5113F0C078 /* SpinKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpinKit.xcconfig; sourceTree = "<group>"; };
+		E7C5B4F8BC03572A54649A3AF74511A6 /* CRNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CRNotifications.swift; path = CRNotifications/Classes/CRNotifications.swift; sourceTree = "<group>"; };
+		F3315C1B47F1C3654B03D1D76D42DE09 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		F54B3C364553DA7839A05AAE49C7B315 /* Colors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = CRNotifications/Classes/Colors.swift; sourceTree = "<group>"; };
+		F6E91D976BDE36719899B09CA85F6D11 /* DeviceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceManager.swift; path = CRNotifications/Classes/DeviceManager.swift; sourceTree = "<group>"; };
+		F7A59FA59391ED4F301D6B176F8FEC89 /* Pods-HistoryQuizApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HistoryQuizApp-umbrella.h"; sourceTree = "<group>"; };
+		FBEF94B04280144A6CB1146E20860676 /* Pods-HistoryQuizAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HistoryQuizAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEE3E6FDC4514B9A79B4A59AD5B95228 /* RTSpinKitPulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitPulseAnimation.h; path = SpinKit/Animations/RTSpinKitPulseAnimation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F3CADC79BF7CD6DFC1C1604B9C0BD1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEED46657110836ADE86D11A600C6B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E2E093D4631C397183285B3360E5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602C7A173E122FDD6F4BE463B8D8337C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C6395A0F4C937B279A3B17E612C105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53469CB1671AEAEA11404D9DDE737A78 /* Foundation.framework in Frameworks */,
+				296C0369EA196BEB414177540818E8A8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB099BFB7799DDDECC29AC58BA6EA6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FB62E5C219A1FA1168AE6C51F1B200 /* CoreGraphics.framework in Frameworks */,
+				B5A6EF561A42456C0D089A8898A5D65F /* Foundation.framework in Frameworks */,
+				615FD064D2CFEC7FAE86D285BF45C48B /* QuartzCore.framework in Frameworks */,
+				C3009402C4415F80BE80856728C8EFA4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51A28A41EFDEDA821945FEC0123FC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0055D1D08F08EBB5E7F6D55C9A43A05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32A721C064E326310CBA6CD377EADD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB35A4F00D35F484A4A42F25BD21BBD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6710941DB4763A513DCF6A53B1289EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B94AC084F2BFC910E4F7A2A3649C31D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				498D899F7A79CB5A6DA4C92D1734083B /* IQKeyboardManagerSwift.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1DABFADB5033EFDBBF61D39803DB92AB /* CRNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				F54B3C364553DA7839A05AAE49C7B315 /* Colors.swift */,
+				766974B48F6BB2BC33EA6BB3CE5E9CAA /* CRNotification.swift */,
+				E7C5B4F8BC03572A54649A3AF74511A6 /* CRNotifications.swift */,
+				CFB9E9085D5E0C5C717FD7A96359EC4C /* CRNotificationType.swift */,
+				F6E91D976BDE36719899B09CA85F6D11 /* DeviceManager.swift */,
+				826E9AD8A750E328D97A019E4C8307C9 /* Resources */,
+				A58EA76F3087AA07FB7041239FCEBBA9 /* Support Files */,
+			);
+			name = CRNotifications;
+			path = CRNotifications;
+			sourceTree = "<group>";
+		};
+		216D11D6253026459814863746CC99A1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */,
+				762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */,
+				B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */,
+				56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2AF9D5514F1E73A591F75C6916791C9D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8A8F153E4BEC7E4CCF10399963EF955 /* SpinKit.modulemap */,
+				E5A00461F3F5D72D196A8D5113F0C078 /* SpinKit.xcconfig */,
+				7AE59451D162C820868AB696A0302B1D /* SpinKit-dummy.m */,
+				4242991E65A937E023BB76884718EA08 /* SpinKit-Info.plist */,
+				910FCD66D8BF9905857CB0FA0EA95F6B /* SpinKit-prefix.pch */,
+				7A1220DAEF8C7CC6F652165426337C0E /* SpinKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SpinKit";
+			sourceTree = "<group>";
+		};
+		2C27409D3489F0A366EB6AFBB129659F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				110F1B726EF504BBC9B7896DED9C9342 /* IQKeyboardManagerSwift.modulemap */,
+				8B148ACD56FB7CE575D1388ADCB7823A /* IQKeyboardManagerSwift.xcconfig */,
+				51D1041FB46A1F763768036D19176A7B /* IQKeyboardManagerSwift-dummy.m */,
+				50166D132CDE93C76669755AA2225A66 /* IQKeyboardManagerSwift-Info.plist */,
+				11EC55364FD751AA3F7C88D7C9E00E76 /* IQKeyboardManagerSwift-prefix.pch */,
+				162C62F8484E413214F398EF837A7182 /* IQKeyboardManagerSwift-umbrella.h */,
+				0CE55285886717234C74C3C4D8D1FB13 /* ResourceBundle-IQKeyboardManagerSwift-IQKeyboardManagerSwift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		2D2823898C8E9F65E2C252857814D660 /* Pods-HistoryQuizAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5926B4E2126C41294C8AC66ABEB00FBF /* Pods-HistoryQuizAppTests.modulemap */,
+				988034B58A3A26FE4334ACB19837E89D /* Pods-HistoryQuizAppTests-acknowledgements.markdown */,
+				FBEF94B04280144A6CB1146E20860676 /* Pods-HistoryQuizAppTests-acknowledgements.plist */,
+				66907806F63F7573834710E5F257EE45 /* Pods-HistoryQuizAppTests-dummy.m */,
+				BD9C5BAC9D982618071DA3E6AFC9CE09 /* Pods-HistoryQuizAppTests-Info.plist */,
+				866D27F9405DA4BB6F93F4C3DCA4D0F6 /* Pods-HistoryQuizAppTests-umbrella.h */,
+				6A0E25B1742894D99AABA34CC5D1D415 /* Pods-HistoryQuizAppTests.debug.xcconfig */,
+				3FCF81C97C209DB9835DB29664CCF4A8 /* Pods-HistoryQuizAppTests.release.xcconfig */,
+			);
+			name = "Pods-HistoryQuizAppTests";
+			path = "Target Support Files/Pods-HistoryQuizAppTests";
+			sourceTree = "<group>";
+		};
+		2E22B8A281FB17A3617B10C1273FCF51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DABFADB5033EFDBBF61D39803DB92AB /* CRNotifications */,
+				94BFD5BCE7630BCC53D2B0A345369DC0 /* IQKeyboardManagerSwift */,
+				46FC4FF5A041A775DEF6D0F357D9791C /* SpinKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46FC4FF5A041A775DEF6D0F357D9791C /* SpinKit */ = {
+			isa = PBXGroup;
+			children = (
+				3304C549313ECBB8181330B6923BC402 /* RTSpinKit9CubeGridAnimation.h */,
+				19BBADE4061572CA9FD81C0941BA1E77 /* RTSpinKit9CubeGridAnimation.m */,
+				A3039E744A2F815C5E1776B42553D6E2 /* RTSpinKitAnimating.h */,
+				0A643ED6AA8700A7546820DB058359BE /* RTSpinKitArcAltAnimation.h */,
+				B77584AE93645035763E965EB354FAC9 /* RTSpinKitArcAltAnimation.m */,
+				629193CA2E1D8C56649D1DDCF7581009 /* RTSpinKitArcAnimation.h */,
+				B51D3F0B581FA60EA7413D8DC31C4228 /* RTSpinKitArcAnimation.m */,
+				CC1F7D5BE65FE7E93C9E27C71A066938 /* RTSpinKitBounceAnimation.h */,
+				690AABDBBA9E040365AD847EF637804D /* RTSpinKitBounceAnimation.m */,
+				54DCD89C7AAAF5F2401E1B300188C4E1 /* RTSpinKitChasingDotsAnimation.h */,
+				3557B7C1F727755897F431922656632D /* RTSpinKitChasingDotsAnimation.m */,
+				767A6D3A09D8613C9F76DFBFA78EBFE6 /* RTSpinKitCircleAnimation.h */,
+				B0CE6BF9AF937AF75123EC1FA45C6446 /* RTSpinKitCircleAnimation.m */,
+				0BE326DC5DB429B5247695E6AE1D0790 /* RTSpinKitCircleFlipAnimation.h */,
+				42D4C1A375CC0903C1EA1694B64962A1 /* RTSpinKitCircleFlipAnimation.m */,
+				369DC607DC5C08FEE275C796D8DEFD0B /* RTSpinKitFadingCircleAltAnimation.h */,
+				06594075474EFADCF7D69A4A7A81EB83 /* RTSpinKitFadingCircleAltAnimation.m */,
+				3A12044187C59064165A5B7E75575C8C /* RTSpinKitFadingCircleAnimation.h */,
+				CCFEFEAC1AA426A95DC22575AB02B150 /* RTSpinKitFadingCircleAnimation.m */,
+				7AE2F530C62E74501EFF61C144D374D8 /* RTSpinKitPlaneAnimation.h */,
+				5690695617E5847767F5F5EB86C1E8A1 /* RTSpinKitPlaneAnimation.m */,
+				FEE3E6FDC4514B9A79B4A59AD5B95228 /* RTSpinKitPulseAnimation.h */,
+				22B34B89EBD23CF947FD16EACDE12085 /* RTSpinKitPulseAnimation.m */,
+				6BE4BCA1DE0E9C0C82E7132957AD5FC5 /* RTSpinKitThreeBounceAnimation.h */,
+				0391419D81D6938661D049F280D9D40F /* RTSpinKitThreeBounceAnimation.m */,
+				B29F7916F9A5429DFC6FF6401F66599A /* RTSpinKitUtils.h */,
+				5B2D93C08F7776A0E98EA9A1992CCB6D /* RTSpinKitUtils.m */,
+				941D36A428C8C199338B0352329312CD /* RTSpinKitView.h */,
+				11E06FBA25EC086EBDF5059FC495989C /* RTSpinKitView.m */,
+				8C8700E2F31CB57A4CF72CEE455FE322 /* RTSpinKitWanderingCubesAnimation.h */,
+				3224D25059227329D92943F3B7F5CE5A /* RTSpinKitWanderingCubesAnimation.m */,
+				43456B55F459BB06C1AC4A26BEAB816C /* RTSpinKitWaveAnimation.h */,
+				54755C90AE320D91DEA2503E2F58B788 /* RTSpinKitWaveAnimation.m */,
+				8968DB482375585131CB594C78D63073 /* RTSpinKitWordPressAnimation.h */,
+				8ADB8307BD84D7719D699FE280961076 /* RTSpinKitWordPressAnimation.m */,
+				2AF9D5514F1E73A591F75C6916791C9D /* Support Files */,
+			);
+			name = SpinKit;
+			path = SpinKit;
+			sourceTree = "<group>";
+		};
+		51FC2FBDF1BEBFF1DF2ADE1ED89FA998 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A7C8C7FDE3AB891C42223CE795946CE /* Pods-HistoryQuizApp */,
+				71C0D7650F743E1518B8F1493C3D1F8D /* Pods-HistoryQuizApp-HistoryQuizAppUITests */,
+				2D2823898C8E9F65E2C252857814D660 /* Pods-HistoryQuizAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		71C0D7650F743E1518B8F1493C3D1F8D /* Pods-HistoryQuizApp-HistoryQuizAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A810BD1DF371C2A44212A4E7B287072 /* Pods-HistoryQuizApp-HistoryQuizAppUITests.modulemap */,
+				DFD1C74C02379C662AF44210C9F01279 /* Pods-HistoryQuizApp-HistoryQuizAppUITests-acknowledgements.markdown */,
+				2B5091A556186CF683D1404935CEC366 /* Pods-HistoryQuizApp-HistoryQuizAppUITests-acknowledgements.plist */,
+				12ADE51A8B5DDB16448AC9574C95E6DF /* Pods-HistoryQuizApp-HistoryQuizAppUITests-dummy.m */,
+				CD80D9CF583CA6A7BEA5B7649F33CCFB /* Pods-HistoryQuizApp-HistoryQuizAppUITests-frameworks.sh */,
+				B092F6DE7E4EB245DD232743DF80E975 /* Pods-HistoryQuizApp-HistoryQuizAppUITests-Info.plist */,
+				9C042435706951AAABDD37F0DDB0DE46 /* Pods-HistoryQuizApp-HistoryQuizAppUITests-umbrella.h */,
+				6D7D6EB6A05F75CC7905A1635692765E /* Pods-HistoryQuizApp-HistoryQuizAppUITests.debug.xcconfig */,
+				7795CF614D9EC37937377CB974FBDC89 /* Pods-HistoryQuizApp-HistoryQuizAppUITests.release.xcconfig */,
+			);
+			name = "Pods-HistoryQuizApp-HistoryQuizAppUITests";
+			path = "Target Support Files/Pods-HistoryQuizApp-HistoryQuizAppUITests";
+			sourceTree = "<group>";
+		};
+		7A7C8C7FDE3AB891C42223CE795946CE /* Pods-HistoryQuizApp */ = {
+			isa = PBXGroup;
+			children = (
+				75C19A7D701E55D265A6D7DAA724C515 /* Pods-HistoryQuizApp.modulemap */,
+				540E81FB5C0E86CFA2B901D4127AD5A0 /* Pods-HistoryQuizApp-acknowledgements.markdown */,
+				A0425A7C92194CD8A028D5CEE4042EE9 /* Pods-HistoryQuizApp-acknowledgements.plist */,
+				4DEDF40B6AE2D3DF8D502895A8AC522C /* Pods-HistoryQuizApp-dummy.m */,
+				CB73188927721AD26263E2DEE8C0F394 /* Pods-HistoryQuizApp-frameworks.sh */,
+				264BA1A6091DB51128C42E7A1AAD3C7C /* Pods-HistoryQuizApp-Info.plist */,
+				F7A59FA59391ED4F301D6B176F8FEC89 /* Pods-HistoryQuizApp-umbrella.h */,
+				6DFA0E2A0FB5CA50613502EC635F15A8 /* Pods-HistoryQuizApp.debug.xcconfig */,
+				E2FEC7DE7B99D37B8A9A3236B368B79F /* Pods-HistoryQuizApp.release.xcconfig */,
+			);
+			name = "Pods-HistoryQuizApp";
+			path = "Target Support Files/Pods-HistoryQuizApp";
+			sourceTree = "<group>";
+		};
+		826E9AD8A750E328D97A019E4C8307C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C46C0136B3B10F9A5F1AC73348560BD /* CRNotificationsMedia.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		94BFD5BCE7630BCC53D2B0A345369DC0 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E451A7658BF410C8F60D24539F9BB5ED /* IQBarButtonItem.swift */,
+				C1749EA4E959D6474F78ACAED642DBC4 /* IQInvocation.swift */,
+				378D9DEEEA2A99B976A98A08FAA13722 /* IQKeyboardManager.swift */,
+				63E2B79FD1E48FE06D42BC34967C60C7 /* IQKeyboardManagerConstants.swift */,
+				A22D0A5A1F72629280966FF837558C9C /* IQKeyboardManagerConstantsInternal.swift */,
+				9098C5D9599CEC7C3CA93E94E69370FD /* IQKeyboardReturnKeyHandler.swift */,
+				8133FF77222935677090478CF9561844 /* IQNSArray+Sort.swift */,
+				9F5FD61BAE4AEE9CD7F6A0C5928C392D /* IQPreviousNextView.swift */,
+				AA85B9CEFD1A33C8993B5B7B975003A1 /* IQTextView.swift */,
+				D455933906B088C1E5C4F7F9A12566B0 /* IQTitleBarButtonItem.swift */,
+				24B6C96FF9105ABA6A24D30800FEBEEA /* IQToolbar.swift */,
+				F3315C1B47F1C3654B03D1D76D42DE09 /* IQUIScrollView+Additions.swift */,
+				6F9FD7050E51D4C82CD0F0C15ED03154 /* IQUITextFieldView+Additions.swift */,
+				CA653FF4EE8AB889878E7DF5CBD3F10B /* IQUIView+Hierarchy.swift */,
+				4994E121F60DC248DB320A9D5DFF9E4C /* IQUIView+IQKeyboardToolbar.swift */,
+				537C400AA34B1C3D546722A3D5DEED12 /* IQUIViewController+Additions.swift */,
+				1B94AC084F2BFC910E4F7A2A3649C31D /* Resources */,
+				2C27409D3489F0A366EB6AFBB129659F /* Support Files */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		A58EA76F3087AA07FB7041239FCEBBA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DF3E25196F80E42717E29558D691C95 /* CRNotifications.modulemap */,
+				5EF2B9C3395145CA27540E19A85926A7 /* CRNotifications.xcconfig */,
+				4E7EAC54E1577E81301CE037EA5EF1EB /* CRNotifications-dummy.m */,
+				CFCE934BE1859E5FEFE652B483055133 /* CRNotifications-Info.plist */,
+				221F320608921C938740DF56B7ED1F18 /* CRNotifications-prefix.pch */,
+				63C1CB521C1BDA3A899EBB8FED5AACC0 /* CRNotifications-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CRNotifications";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216D11D6253026459814863746CC99A1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				2E22B8A281FB17A3617B10C1273FCF51 /* Pods */,
+				D6CBDBEFE2B42CE47DABA9EA93F0648D /* Products */,
+				51FC2FBDF1BEBFF1DF2ADE1ED89FA998 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CBDBEFE2B42CE47DABA9EA93F0648D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7486B73DF4A5F8D01AB4451A4DBA7A4B /* CRNotifications.framework */,
+				8D8069D3964814114ACEC3084C010B59 /* IQKeyboardManagerSwift.bundle */,
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
+				38E96A29C62972959D83ECEADEB02612 /* Pods_HistoryQuizApp.framework */,
+				A7BAE178A94B72DCE25C40E1ADF95C77 /* Pods_HistoryQuizApp_HistoryQuizAppUITests.framework */,
+				5B92DDBB1638396420E6305404A0A34C /* Pods_HistoryQuizAppTests.framework */,
+				5A67E7E3B0EDCBC2B3B6FED2AA27AA83 /* SpinKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		312B08273C36AD56EF7D24EE2030B589 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBD0775A6CBD2BECEBEF0D67C09958D /* CRNotifications-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B8329D09ACC796641630E81A9370BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC47881FEB5159E293C8596CBAC3E3B /* IQKeyboardManagerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC58436C53FACEB69CC56E0ECB6A75A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DA3312736A90F24B64C46699D5DBB0 /* Pods-HistoryQuizApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4459220E85F6F777AA30BCD5E00780 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49BA7A155BBFD047B1670928E73BAD6 /* Pods-HistoryQuizAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9F5E7589C914BEAC5C60722E3C2F9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4493A05CC1FDD7E01057FE4CFB81254E /* Pods-HistoryQuizApp-HistoryQuizAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2CC121540C44F46A599025CC1B4E49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCF9E2829F2B5C15AB7519E864433D4 /* RTSpinKit9CubeGridAnimation.h in Headers */,
+				004152E96120BACC7DA95D13CD882911 /* RTSpinKitAnimating.h in Headers */,
+				E3892BAF47F6348037BB036239D465D9 /* RTSpinKitArcAltAnimation.h in Headers */,
+				3206CDE0728C4591DBA7AE3757B53A57 /* RTSpinKitArcAnimation.h in Headers */,
+				8DF7F6CBB38B2D0CCAFBD1337959F4C6 /* RTSpinKitBounceAnimation.h in Headers */,
+				02FD0CD1A19C576EE0B85CB8C17DA996 /* RTSpinKitChasingDotsAnimation.h in Headers */,
+				A1E8BDBAB0FE882AC409A40BF3BD5C01 /* RTSpinKitCircleAnimation.h in Headers */,
+				7EF13AC0792930953459F07E00B10647 /* RTSpinKitCircleFlipAnimation.h in Headers */,
+				99FF852E435E722345F62ABC5014E3FB /* RTSpinKitFadingCircleAltAnimation.h in Headers */,
+				94458FF310D8CFEA7900372A80D817BB /* RTSpinKitFadingCircleAnimation.h in Headers */,
+				A07CE8DC5D8BCE04F2ADED7CE0E87CEC /* RTSpinKitPlaneAnimation.h in Headers */,
+				36F180FD42DA10DCEF39A22D5D5FDF7B /* RTSpinKitPulseAnimation.h in Headers */,
+				782E33A78519114B30FBA79658A7F422 /* RTSpinKitThreeBounceAnimation.h in Headers */,
+				45F494124F3E163A703F0150867CA736 /* RTSpinKitUtils.h in Headers */,
+				491024358B3CE13FB67594E928B9AE81 /* RTSpinKitView.h in Headers */,
+				FD00E668EA6581DC9D5DD886B678F036 /* RTSpinKitWanderingCubesAnimation.h in Headers */,
+				DCA9EBFD90A7AF3E2C94E3C5EA1E4A8F /* RTSpinKitWaveAnimation.h in Headers */,
+				44299D6A8123CFD811186E1F585ABD2E /* RTSpinKitWordPressAnimation.h in Headers */,
+				7DC3F884091AD7B0ABF8C261B3EDACBA /* SpinKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C67B289452A03DB2BFAA63535D7BF3A /* CRNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C3D123180A1CF03D104117C04182CB /* Build configuration list for PBXNativeTarget "CRNotifications" */;
+			buildPhases = (
+				312B08273C36AD56EF7D24EE2030B589 /* Headers */,
+				4640D4D615B1965928C6D2903424127B /* Sources */,
+				A1C6395A0F4C937B279A3B17E612C105 /* Frameworks */,
+				561634A6FE64BC7E7852E9C15F8E9A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRNotifications;
+			productName = CRNotifications;
+			productReference = 7486B73DF4A5F8D01AB4451A4DBA7A4B /* CRNotifications.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		337A0334EDE80EDB234AEDC1BD6F840B /* Pods-HistoryQuizApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B01F4F302B820F2E9ECF6783D9B51F6 /* Build configuration list for PBXNativeTarget "Pods-HistoryQuizApp" */;
+			buildPhases = (
+				7FC58436C53FACEB69CC56E0ECB6A75A /* Headers */,
+				3FC982C20EA0225A7E7D542F90999B12 /* Sources */,
+				83E2E093D4631C397183285B3360E5A1 /* Frameworks */,
+				57512D43334103CED1D00569A0D634B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				698DF4D0E699839308FE6C892D25EF64 /* PBXTargetDependency */,
+				AC703CBD673BF2AAC09D1402108A9B29 /* PBXTargetDependency */,
+				F3D01EB192AAB7CFE0D045D861FD8661 /* PBXTargetDependency */,
+			);
+			name = "Pods-HistoryQuizApp";
+			productName = "Pods-HistoryQuizApp";
+			productReference = 38E96A29C62972959D83ECEADEB02612 /* Pods_HistoryQuizApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79EC94DC5BD358E441351ADEB45A1213 /* Pods-HistoryQuizApp-HistoryQuizAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B97B5FEA3542E409287C031291354E /* Build configuration list for PBXNativeTarget "Pods-HistoryQuizApp-HistoryQuizAppUITests" */;
+			buildPhases = (
+				ED9F5E7589C914BEAC5C60722E3C2F9D /* Headers */,
+				31A4055D4B69196025BFD9911192A143 /* Sources */,
+				E32A721C064E326310CBA6CD377EADD8 /* Frameworks */,
+				70D92CAA4F7617D12A71D5D2E08B08F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12550A608338B761593E986A55E05818 /* PBXTargetDependency */,
+				3101D84AA001CBA28941070C9BE2ADDC /* PBXTargetDependency */,
+				71E2F8BDA03C1938F2A71A4DCAAA00D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-HistoryQuizApp-HistoryQuizAppUITests";
+			productName = "Pods-HistoryQuizApp-HistoryQuizAppUITests";
+			productReference = A7BAE178A94B72DCE25C40E1ADF95C77 /* Pods_HistoryQuizApp_HistoryQuizAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		982A68D37F5DCBC1FC1FDC0BB2F0EB8E /* IQKeyboardManagerSwift-IQKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D991A0A15DC6E4F3BCF4FA187F1535 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift-IQKeyboardManagerSwift" */;
+			buildPhases = (
+				6DC337E6A7E82CC6A15F5BC78BB2731C /* Sources */,
+				E6710941DB4763A513DCF6A53B1289EF /* Frameworks */,
+				F9E78A02E2454E0D45C281AFBF0A995E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IQKeyboardManagerSwift-IQKeyboardManagerSwift";
+			productName = "IQKeyboardManagerSwift-IQKeyboardManagerSwift";
+			productReference = 8D8069D3964814114ACEC3084C010B59 /* IQKeyboardManagerSwift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4324C719BA680BF945575DA8C9041E /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
+			buildPhases = (
+				76B8329D09ACC796641630E81A9370BE /* Headers */,
+				311438B71610F59D71F0687442474956 /* Sources */,
+				BB099BFB7799DDDECC29AC58BA6EA6FD /* Frameworks */,
+				89352FFCA6FE7CBC3A5050A79C60B839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC13950EB8888D79D75C43BBA66C847 /* PBXTargetDependency */,
+			);
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C567419A415644681697B685E6C222E0 /* SpinKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E2D3FFDEFE7C46874F4CB1329FEFBC /* Build configuration list for PBXNativeTarget "SpinKit" */;
+			buildPhases = (
+				FD2CC121540C44F46A599025CC1B4E49 /* Headers */,
+				E3F410E5957D71A23CF8A34FD98071C5 /* Sources */,
+				C51A28A41EFDEDA821945FEC0123FC33 /* Frameworks */,
+				446557C09E2D9ED484F512BC8669EE91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinKit;
+			productName = SpinKit;
+			productReference = 5A67E7E3B0EDCBC2B3B6FED2AA27AA83 /* SpinKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0E79A6C6B2C3516345DA908C79FA757 /* Pods-HistoryQuizAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9466548482F919BC850BBEB30825431C /* Build configuration list for PBXNativeTarget "Pods-HistoryQuizAppTests" */;
+			buildPhases = (
+				9F4459220E85F6F777AA30BCD5E00780 /* Headers */,
+				002996F34279A1AE3F80CF7834D1B6AC /* Sources */,
+				7F3CADC79BF7CD6DFC1C1604B9C0BD1F /* Frameworks */,
+				5C8771D5926316545EDA2BDC4B92BFB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC9E7A16BDAE0841C4B1CA64BD39F3ED /* PBXTargetDependency */,
+			);
+			name = "Pods-HistoryQuizAppTests";
+			productName = "Pods-HistoryQuizAppTests";
+			productReference = 5B92DDBB1638396420E6305404A0A34C /* Pods_HistoryQuizAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D6CBDBEFE2B42CE47DABA9EA93F0648D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C67B289452A03DB2BFAA63535D7BF3A /* CRNotifications */,
+				B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */,
+				982A68D37F5DCBC1FC1FDC0BB2F0EB8E /* IQKeyboardManagerSwift-IQKeyboardManagerSwift */,
+				337A0334EDE80EDB234AEDC1BD6F840B /* Pods-HistoryQuizApp */,
+				79EC94DC5BD358E441351ADEB45A1213 /* Pods-HistoryQuizApp-HistoryQuizAppUITests */,
+				F0E79A6C6B2C3516345DA908C79FA757 /* Pods-HistoryQuizAppTests */,
+				C567419A415644681697B685E6C222E0 /* SpinKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		446557C09E2D9ED484F512BC8669EE91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561634A6FE64BC7E7852E9C15F8E9A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDDAE7BFAE455F5ED0DF7EA10F89570 /* CRNotificationsMedia.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57512D43334103CED1D00569A0D634B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8771D5926316545EDA2BDC4B92BFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D92CAA4F7617D12A71D5D2E08B08F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89352FFCA6FE7CBC3A5050A79C60B839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA6DC9706CF4F228389978F43D49351 /* IQKeyboardManagerSwift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E78A02E2454E0D45C281AFBF0A995E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE10D2DEAFC0AAE6F7C7B8FEAED91658 /* IQKeyboardManagerSwift.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002996F34279A1AE3F80CF7834D1B6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A31D6F1F16CABC96DB7AD672E4CCBA4 /* Pods-HistoryQuizAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311438B71610F59D71F0687442474956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5037C1C015AA1A7B35B4805057B42D8 /* IQBarButtonItem.swift in Sources */,
+				041947EA9F9D51C1CD98B02D547FD624 /* IQInvocation.swift in Sources */,
+				FE6AD29B2189E14E0F948BAE55BA0AFB /* IQKeyboardManager.swift in Sources */,
+				3964BAE860274DC785719EDD904430F0 /* IQKeyboardManagerConstants.swift in Sources */,
+				79C113AD67314558C1885899493C9AC7 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				315AED2CB54B7752129BE7F50068D21C /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				2DB68824892737B191D12CF8B36E0FD9 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				2AF0369096BFF874D57F0F17FF2FDE23 /* IQNSArray+Sort.swift in Sources */,
+				66F6D80684B3F931369CCA4A63AF0A62 /* IQPreviousNextView.swift in Sources */,
+				4856237C39EB285833ABE79407F3F6F1 /* IQTextView.swift in Sources */,
+				5D76AB4D7BD79747511B3584008A5E02 /* IQTitleBarButtonItem.swift in Sources */,
+				710CBCD5C3799F4B665874C9C7148CDD /* IQToolbar.swift in Sources */,
+				C6211564D6F304C894C04CDAB81B2632 /* IQUIScrollView+Additions.swift in Sources */,
+				CA8AB9F08CC9791CE7C624AFDB5056A6 /* IQUITextFieldView+Additions.swift in Sources */,
+				CE34683AB20D55BF88D58EEACADB1EC5 /* IQUIView+Hierarchy.swift in Sources */,
+				06FA81C5AB9C8C8790941CED9757F54F /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				AECEF90A17592166FC57790B2767110E /* IQUIViewController+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31A4055D4B69196025BFD9911192A143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0713E45D0928BC34F1BBB925105C2064 /* Pods-HistoryQuizApp-HistoryQuizAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC982C20EA0225A7E7D542F90999B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF99DDC3D28D726ED4B12A56D9194972 /* Pods-HistoryQuizApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4640D4D615B1965928C6D2903424127B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B74C851A326EF717D74218B8DB89C /* Colors.swift in Sources */,
+				8CF0682FC37FDD28A841040A6B3443E7 /* CRNotification.swift in Sources */,
+				8B6A930F3D3A8F7874CAF33761333205 /* CRNotifications-dummy.m in Sources */,
+				4256601F4D7284AD79491F33550B3249 /* CRNotifications.swift in Sources */,
+				E2F3C0D3FC90007B054D5C3C07763251 /* CRNotificationType.swift in Sources */,
+				5DCAEEB2979566882ADADC9D90FB4A1A /* DeviceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC337E6A7E82CC6A15F5BC78BB2731C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F410E5957D71A23CF8A34FD98071C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98460397CEFCA156E62CA55B297C11BC /* RTSpinKit9CubeGridAnimation.m in Sources */,
+				7672FD8D4E471D0E89D9394980AFD3CA /* RTSpinKitArcAltAnimation.m in Sources */,
+				2E70B4A89770BC7256DE90C1540459CC /* RTSpinKitArcAnimation.m in Sources */,
+				38C966A1CDC5829B68FFB5652112EBC4 /* RTSpinKitBounceAnimation.m in Sources */,
+				A55E4B6D2843617184AE9FD646FA6C2E /* RTSpinKitChasingDotsAnimation.m in Sources */,
+				146F07A06ACB7A3279D37B0549BC502C /* RTSpinKitCircleAnimation.m in Sources */,
+				ABF378E191D5711CC99640AEBD39F5A6 /* RTSpinKitCircleFlipAnimation.m in Sources */,
+				0F18D0B2F7EB12EACD4BFB4E10FA9E28 /* RTSpinKitFadingCircleAltAnimation.m in Sources */,
+				0141DD1FD6D15EAE9368CAAA4C10B96E /* RTSpinKitFadingCircleAnimation.m in Sources */,
+				A0F4F31C7E3BBF6667C25046C9F57E91 /* RTSpinKitPlaneAnimation.m in Sources */,
+				95F4E2D2CB8D07C14567239542CE50EF /* RTSpinKitPulseAnimation.m in Sources */,
+				0A177CD29EF877171098DC020E4EF19D /* RTSpinKitThreeBounceAnimation.m in Sources */,
+				16A57F4EC12A03D5A8A7ED72725C68F4 /* RTSpinKitUtils.m in Sources */,
+				3D1B567A3130FFE5B99DB2CBEF8335B1 /* RTSpinKitView.m in Sources */,
+				DBC2DDD41A0940D615CEE9C32235F6E9 /* RTSpinKitWanderingCubesAnimation.m in Sources */,
+				26734CEA78486B9C6C0D66D8E1798175 /* RTSpinKitWaveAnimation.m in Sources */,
+				B4A9249CAC3A24C0977519E105B5FA7B /* RTSpinKitWordPressAnimation.m in Sources */,
+				831C4B72B434D2BCC2AE13697166250C /* SpinKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12550A608338B761593E986A55E05818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CRNotifications;
+			target = 2C67B289452A03DB2BFAA63535D7BF3A /* CRNotifications */;
+			targetProxy = FAFA418B8F83A5E4345FEE61184E76C6 /* PBXContainerItemProxy */;
+		};
+		3101D84AA001CBA28941070C9BE2ADDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = 978B17EDB203DECC8A33CDAF658CF191 /* PBXContainerItemProxy */;
+		};
+		4AC13950EB8888D79D75C43BBA66C847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IQKeyboardManagerSwift-IQKeyboardManagerSwift";
+			target = 982A68D37F5DCBC1FC1FDC0BB2F0EB8E /* IQKeyboardManagerSwift-IQKeyboardManagerSwift */;
+			targetProxy = 99DEC5D1F77FCC5AF792AF90873A15FC /* PBXContainerItemProxy */;
+		};
+		698DF4D0E699839308FE6C892D25EF64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CRNotifications;
+			target = 2C67B289452A03DB2BFAA63535D7BF3A /* CRNotifications */;
+			targetProxy = EA288F449177FE49BD2AC82CA5DF2AC6 /* PBXContainerItemProxy */;
+		};
+		71E2F8BDA03C1938F2A71A4DCAAA00D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpinKit;
+			target = C567419A415644681697B685E6C222E0 /* SpinKit */;
+			targetProxy = 7DE39AE14361872A4055CD3978D2A35D /* PBXContainerItemProxy */;
+		};
+		AC703CBD673BF2AAC09D1402108A9B29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = B98FB4AA85CFC343CD95C164DDEA82B5 /* PBXContainerItemProxy */;
+		};
+		BC9E7A16BDAE0841C4B1CA64BD39F3ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HistoryQuizApp";
+			target = 337A0334EDE80EDB234AEDC1BD6F840B /* Pods-HistoryQuizApp */;
+			targetProxy = 751A950FAD94F9F89E408D8BD73C503F /* PBXContainerItemProxy */;
+		};
+		F3D01EB192AAB7CFE0D045D861FD8661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpinKit;
+			target = C567419A415644681697B685E6C222E0 /* SpinKit */;
+			targetProxy = 934B11E63C9624AB82E803643326709B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		089487DB00A9D79A9031A22158AF42F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B148ACD56FB7CE575D1388ADCB7823A /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		14278EA6BBA97559F912A7A9033A0CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFA0E2A0FB5CA50613502EC635F15A8 /* Pods-HistoryQuizApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HistoryQuizApp/Pods-HistoryQuizApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HistoryQuizApp/Pods-HistoryQuizApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1A212E601730A156FB552855AB3EA007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A00461F3F5D72D196A8D5113F0C078 /* SpinKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpinKit/SpinKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpinKit/SpinKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SpinKit/SpinKit.modulemap";
+				PRODUCT_MODULE_NAME = SpinKit;
+				PRODUCT_NAME = SpinKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BF48110BEEF339C9833C15711843B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B148ACD56FB7CE575D1388ADCB7823A /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7289A387DFC7675C303F8FC668D3301F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7D6EB6A05F75CC7905A1635692765E /* Pods-HistoryQuizApp-HistoryQuizAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HistoryQuizApp-HistoryQuizAppUITests/Pods-HistoryQuizApp-HistoryQuizAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HistoryQuizApp-HistoryQuizAppUITests/Pods-HistoryQuizApp-HistoryQuizAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		783DF524C3B11937D291A1DCC065CF6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B148ACD56FB7CE575D1388ADCB7823A /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IQKeyboardManagerSwift";
+				IBSC_MODULE = IQKeyboardManagerSwift;
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/ResourceBundle-IQKeyboardManagerSwift-IQKeyboardManagerSwift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8B20725E595586D781799B69D51CA41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0E25B1742894D99AABA34CC5D1D415 /* Pods-HistoryQuizAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HistoryQuizAppTests/Pods-HistoryQuizAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HistoryQuizAppTests/Pods-HistoryQuizAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93759CB5801E04746BF552343304B747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7795CF614D9EC37937377CB974FBDC89 /* Pods-HistoryQuizApp-HistoryQuizAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HistoryQuizApp-HistoryQuizAppUITests/Pods-HistoryQuizApp-HistoryQuizAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HistoryQuizApp-HistoryQuizAppUITests/Pods-HistoryQuizApp-HistoryQuizAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B50DD9CC82F0581ABCDB8336D0C44E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF2B9C3395145CA27540E19A85926A7 /* CRNotifications.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CRNotifications/CRNotifications-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CRNotifications/CRNotifications-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CRNotifications/CRNotifications.modulemap";
+				PRODUCT_MODULE_NAME = CRNotifications;
+				PRODUCT_NAME = CRNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD7683EC2C090E152C02402D934CBCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B148ACD56FB7CE575D1388ADCB7823A /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IQKeyboardManagerSwift";
+				IBSC_MODULE = IQKeyboardManagerSwift;
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/ResourceBundle-IQKeyboardManagerSwift-IQKeyboardManagerSwift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AE3EF5934A560084073BA1646505DC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A00461F3F5D72D196A8D5113F0C078 /* SpinKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpinKit/SpinKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpinKit/SpinKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SpinKit/SpinKit.modulemap";
+				PRODUCT_MODULE_NAME = SpinKit;
+				PRODUCT_NAME = SpinKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01BA323F9557A6C78ACE294F2F40EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCF81C97C209DB9835DB29664CCF4A8 /* Pods-HistoryQuizAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HistoryQuizAppTests/Pods-HistoryQuizAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HistoryQuizAppTests/Pods-HistoryQuizAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C8C1A42B2396FB7DD00B48BED17C72D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FEC7DE7B99D37B8A9A3236B368B79F /* Pods-HistoryQuizApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HistoryQuizApp/Pods-HistoryQuizApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HistoryQuizApp/Pods-HistoryQuizApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E124A3A838D067453EE6C8D648929F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF2B9C3395145CA27540E19A85926A7 /* CRNotifications.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CRNotifications/CRNotifications-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CRNotifications/CRNotifications-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CRNotifications/CRNotifications.modulemap";
+				PRODUCT_MODULE_NAME = CRNotifications;
+				PRODUCT_NAME = CRNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B97B5FEA3542E409287C031291354E /* Build configuration list for PBXNativeTarget "Pods-HistoryQuizApp-HistoryQuizAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7289A387DFC7675C303F8FC668D3301F /* Debug */,
+				93759CB5801E04746BF552343304B747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B01F4F302B820F2E9ECF6783D9B51F6 /* Build configuration list for PBXNativeTarget "Pods-HistoryQuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14278EA6BBA97559F912A7A9033A0CB1 /* Debug */,
+				C8C1A42B2396FB7DD00B48BED17C72D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9466548482F919BC850BBEB30825431C /* Build configuration list for PBXNativeTarget "Pods-HistoryQuizAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B20725E595586D781799B69D51CA41E /* Debug */,
+				B01BA323F9557A6C78ACE294F2F40EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E2D3FFDEFE7C46874F4CB1329FEFBC /* Build configuration list for PBXNativeTarget "SpinKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3EF5934A560084073BA1646505DC5D /* Debug */,
+				1A212E601730A156FB552855AB3EA007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C3D123180A1CF03D104117C04182CB /* Build configuration list for PBXNativeTarget "CRNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E124A3A838D067453EE6C8D648929F0A /* Debug */,
+				9B50DD9CC82F0581ABCDB8336D0C44E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D991A0A15DC6E4F3BCF4FA187F1535 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift-IQKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7683EC2C090E152C02402D934CBCB8 /* Debug */,
+				783DF524C3B11937D291A1DCC065CF6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE4324C719BA680BF945575DA8C9041E /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF48110BEEF339C9833C15711843B00 /* Debug */,
+				089487DB00A9D79A9031A22158AF42F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

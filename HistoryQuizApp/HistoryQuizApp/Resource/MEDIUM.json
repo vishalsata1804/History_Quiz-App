@@ -1,0 +1,395 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "During what war did the &quot;Cuban Missile Crisis&quot; occur?",
+      "correct_answer": "Cold War",
+      "incorrect_answers": [
+        "Cold War",
+        "World War I",
+        "World War II",
+        "Revolutionary War"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What historical event was Tchaikovsky&#039;s 1812 Overture referencing?",
+      "correct_answer": "The Napoleonic Wars",
+      "incorrect_answers": [
+        "The American War of 1812",
+        "The Napoleonic Wars",
+        "The Russian Revolution",
+        "The Charge of the Light Brigade (Crimean War)"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the capital of South Vietnam before the Vietnam War?",
+      "correct_answer": "Saigon",
+      "incorrect_answers": [
+        "Ho Chi Minh City",
+        "Hanoi",
+        "Saigon",
+        "Hue"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who was the first explorer to sail to North America?",
+      "correct_answer": "Leif Erikson",
+      "incorrect_answers": [
+        "Leif Erikson",
+        "Christopher Columbus",
+        "Amerigo Vespucci",
+        "Ferdinand Magellan"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who was the Prime Minister of the United Kingdom for most of World War II?",
+      "correct_answer": "Winston Churchill",
+      "incorrect_answers": [
+        "Neville Chamberlain",
+        "Harold Macmillan",
+        "Winston Churchill",
+        "Edward Heath"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which country had an &quot;Orange Revolution&quot; between 2004 and 2005?",
+      "correct_answer": "Ukraine",
+      "incorrect_answers": [
+        "Belarus",
+        "Ukraine",
+        "Latvia",
+        "Lithuania"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The Herero genocide was perpetrated in Africa by which of the following colonial nations?",
+      "correct_answer": "Germany",
+      "incorrect_answers": [
+        "Germany",
+        "Britain",
+        "Belgium",
+        "France"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following battles is often considered as marking the beginning of the fall of the Western Roman Empire?",
+      "correct_answer": "Battle of Adrianople",
+      "incorrect_answers": [
+        "Battle of Thessalonica",
+        "Battle of Pollentia",
+        "Battle of Adrianople",
+        "Battle of Constantinople"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "One of the deadliest pandemics, the &quot;Spanish Flu&quot;, killed off what percentage of the human world population at the time?",
+      "correct_answer": "3 to 6 percent",
+      "incorrect_answers": [
+        "6 to 10 percent",
+        "1 to 3 percent",
+        "less than 1 percent",
+        "3 to 6 percent"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "When was &quot;The Gadget&quot;, the first nuclear device to be detonated, tested?",
+      "correct_answer": "July 16, 1945",
+      "incorrect_answers": [
+        "July 16, 1945",
+        "June 22, 1945",
+        "August 6, 1945",
+        "April 5, 1945"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "On which day did the attempted coup d&#039;etat of 1991 in the Soviet Union begin?",
+      "correct_answer": "August 19",
+      "incorrect_answers": [
+        "August 21",
+        "August 19",
+        "December 26",
+        "December 24"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "On which day did construction start on &quot;The Pentagon&quot;, the headquarters for the United States Department of Defense?",
+      "correct_answer": "September 11, 1941",
+      "incorrect_answers": [
+        "June 15, 1947",
+        "January 15, 1943",
+        "September 11, 1941",
+        "September 2, 1962"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?",
+      "correct_answer": "USS Pueblo",
+      "incorrect_answers": [
+        "USS Pueblo",
+        "USS North Carolina",
+        "USS Constitution",
+        "USS Indianapolis"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What year did the Boxing Day earthquake &amp; tsunami occur in the Indian Ocean?",
+      "correct_answer": "2004",
+      "incorrect_answers": [
+        "2006",
+        "2008",
+        "2004",
+        "2002"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Against which country did the Dutch Republic fight the Eighty Years&#039; War?",
+      "correct_answer": "Spain",
+      "incorrect_answers": [
+        "Spain",
+        "France",
+        "England",
+        "Portugal"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the transfer of disease, crops, and people across the Atlantic shortly after the discovery of the Americas called?",
+      "correct_answer": "The Columbian Exchange",
+      "incorrect_answers": [
+        "Triangle Trade",
+        "Transatlantic Slave Trade",
+        "The Silk Road",
+        "The Columbian Exchange"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "When Christopher Columbus sailed to America, what was the first region he arrived in?",
+      "correct_answer": "The Bahamas Archipelago",
+      "incorrect_answers": [
+        "Florida",
+        "Isthmus of Panama",
+        "The Bahamas Archipelago",
+        "Nicaragua"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following snipers has the highest amount of confirmed kills?",
+      "correct_answer": "Simo H&auml;yh&auml;",
+      "incorrect_answers": [
+        "Chris Kyle",
+        "Simo H&auml;yh&auml;",
+        "Vasily Zaytsev",
+        "Craig Harrison"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In what year did the First World War end?",
+      "correct_answer": "1918",
+      "incorrect_answers": [
+        "1918",
+        "1914",
+        "1916",
+        "1912"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the unofficial name for Germany between 1919 and 1933?",
+      "correct_answer": "Weimar Republic",
+      "incorrect_answers": [
+        "German Democratic Republic",
+        "Federal Republic of Germany",
+        "Oesterreich ",
+        "Weimar Republic"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which U.S. president took part in the Potsdam Conference, where the Allies reached a peace settlement with Germany?",
+      "correct_answer": "Harry S. Truman",
+      "incorrect_answers": [
+        "Harry S. Truman",
+        "Dwight D. Eisenhower",
+        "Franklin D. Roosevelt",
+        "Herbert Hoover"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What year did Australia become a federation?",
+      "correct_answer": "1901",
+      "incorrect_answers": [
+        "1910",
+        "1901",
+        "1899",
+        "1911"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In which year was Constantinople conquered by the Turks?",
+      "correct_answer": "1453",
+      "incorrect_answers": [
+        "1435",
+        "1454",
+        "1440",
+        "1453"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The United States Army Air Corps became the United States Air Force on what date?",
+      "correct_answer": "September 18, 1947",
+      "incorrect_answers": [
+        "September 18, 1947",
+        "December 14, 1946",
+        "October 27, 1945",
+        "November 08, 1944"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "When did the British hand-over sovereignty of Hong Kong back to China?",
+      "correct_answer": "1997",
+      "incorrect_answers": [
+        "1999",
+        "1841",
+        "1900",
+        "1997"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The minigun was designed in 1960 by which manufacturer.",
+      "correct_answer": "General Electric",
+      "incorrect_answers": [
+        "Colt Firearms",
+        "Heckler &amp; Koch",
+        "Sig Sauer",
+        "General Electric"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What year did Skoal, a smokeless Tobacco company, release their first line of Pouches, known as &quot;Skoal Bandits&quot;?",
+      "correct_answer": "1983",
+      "incorrect_answers": [
+        "1983",
+        "1934",
+        "1984",
+        "1822"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following Presidents of the United States was assassinated?",
+      "correct_answer": "William McKinley",
+      "incorrect_answers": [
+        "Lyndon Johnson",
+        "William McKinley",
+        "Chester Arthur",
+        "Franklin Roosevelt"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which U.S. President was in office when the Gulf War began?",
+      "correct_answer": "George H. W. Bush",
+      "incorrect_answers": [
+        "Richard Nixon",
+        "George W. Bush ",
+        "George H. W. Bush",
+        "Ronald Regan"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the name of the planned invasion of Japan towards the end of World War II?",
+      "correct_answer": "Operation Downfall",
+      "incorrect_answers": [
+        "Operation Downfall",
+        "Operation Boarding Party",
+        "Operation Ironclad",
+        "Operation Aflame"
+      ]
+    }
+  ]
+}

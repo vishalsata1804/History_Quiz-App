@@ -1,0 +1,24 @@
+PODS:
+  - CRNotifications (1.2.1)
+  - IQKeyboardManagerSwift (6.5.4)
+  - SpinKit (1.2.0)
+
+DEPENDENCIES:
+  - CRNotifications
+  - IQKeyboardManagerSwift
+  - SpinKit
+
+SPEC REPOS:
+  trunk:
+    - CRNotifications
+    - IQKeyboardManagerSwift
+    - SpinKit
+
+SPEC CHECKSUMS:
+  CRNotifications: 2799786cb63e104c75699843d8928afd680182f3
+  IQKeyboardManagerSwift: 2dde0fc70110e8eac7ccce2a46fdbec6a850b414
+  SpinKit: 65906a8b534a4e14cbfd3f8b0b6c329131faef4a
+
+PODFILE CHECKSUM: effdb3f8eb0056b0697dfd9186591f20c8f8ba3c
+
+COCOAPODS: 1.8.4

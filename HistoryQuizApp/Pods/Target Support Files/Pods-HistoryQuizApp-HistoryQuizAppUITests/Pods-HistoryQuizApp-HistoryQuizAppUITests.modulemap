@@ -1,0 +1,6 @@
+framework module Pods_HistoryQuizApp_HistoryQuizAppUITests {
+  umbrella header "Pods-HistoryQuizApp-HistoryQuizAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

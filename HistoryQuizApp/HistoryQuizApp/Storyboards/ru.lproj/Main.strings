@@ -1,0 +1,63 @@
+
+/* Class = "UILabel"; text = "Highest Score "; ObjectID = "13A-7a-KAs"; */
+"13A-7a-KAs.text" = "Highest Score ";
+
+/* Class = "UIButton"; normalTitle = "SCORE"; ObjectID = "5T4-aN-d3U"; */
+"5T4-aN-d3U.normalTitle" = "SCORE";
+
+/* Class = "UIButton"; normalTitle = "BACK"; ObjectID = "658-ju-Jvn"; */
+"658-ju-Jvn.normalTitle" = "BACK";
+
+/* Class = "UILabel"; text = "Still Scored : 23"; ObjectID = "6L6-fI-9dd"; */
+"6L6-fI-9dd.text" = "Still Scored : 23";
+
+/* Class = "UILabel"; text = "20"; ObjectID = "9yR-Uk-HPz"; */
+"9yR-Uk-HPz.text" = "20";
+
+/* Class = "UIButton"; normalTitle = "HARD"; ObjectID = "DDw-wo-Ird"; */
+"DDw-wo-Ird.normalTitle" = "HARD";
+
+/* Class = "UIViewController"; title = "Your Scores List"; ObjectID = "GMb-fs-EBK"; */
+"GMb-fs-EBK.title" = "Your Scores List";
+
+/* Class = "UIButton"; normalTitle = "HOME"; ObjectID = "Hne-Ww-5Ii"; */
+"Hne-Ww-5Ii.normalTitle" = "HOME";
+
+/* Class = "UIButton"; normalTitle = "C. Saint Kitts and Nevis"; ObjectID = "K35-Rh-Ctk"; */
+"K35-Rh-Ctk.normalTitle" = "C. Saint Kitts and Nevis";
+
+/* Class = "UILabel"; text = "Your Score "; ObjectID = "RB0-hK-FWn"; */
+"RB0-hK-FWn.text" = "Your Score ";
+
+/* Class = "UILabel"; text = "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?"; ObjectID = "Trw-j6-kyR"; */
+"Trw-j6-kyR.text" = "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?";
+
+/* Class = "UILabel"; text = "Tap To Question Difficulty Level"; ObjectID = "VUH-cF-sfu"; */
+"VUH-cF-sfu.text" = "Tap To Question Difficulty Level";
+
+/* Class = "UIButton"; normalTitle = "A. Trinidad and Tobago"; ObjectID = "WCI-GO-ySC"; */
+"WCI-GO-ySC.normalTitle" = "A. Trinidad and Tobago";
+
+/* Class = "UIButton"; normalTitle = "Back To Home"; ObjectID = "WqS-96-m6o"; */
+"WqS-96-m6o.normalTitle" = "Back To Home";
+
+/* Class = "UIButton"; normalTitle = "MEDIUM"; ObjectID = "bCO-Gx-kbE"; */
+"bCO-Gx-kbE.normalTitle" = "MEDIUM";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "fZZ-Po-tMh"; */
+"fZZ-Po-tMh.normalTitle" = "NEXT";
+
+/* Class = "UIButton"; normalTitle = "B. Antigua and Barbuda"; ObjectID = "hkj-eM-VKI"; */
+"hkj-eM-VKI.normalTitle" = "B. Antigua and Barbuda";
+
+/* Class = "UIButton"; normalTitle = "D. Barbados"; ObjectID = "o2L-2c-bM7"; */
+"o2L-2c-bM7.normalTitle" = "D. Barbados";
+
+/* Class = "UIButton"; normalTitle = "EASY"; ObjectID = "oFu-Ph-GIz"; */
+"oFu-Ph-GIz.normalTitle" = "EASY";
+
+/* Class = "UILabel"; text = "XX/25"; ObjectID = "x4U-4Z-QQ4"; */
+"x4U-4Z-QQ4.text" = "XX/25";
+
+/* Class = "UILabel"; text = "20"; ObjectID = "zgK-dO-xDn"; */
+"zgK-dO-xDn.text" = "20";
