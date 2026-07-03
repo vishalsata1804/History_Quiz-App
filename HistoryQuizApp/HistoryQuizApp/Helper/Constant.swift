@@ -90,9 +90,9 @@ class Constant: NSObject , CLLocationManagerDelegate{
     
     static let ownEntityMessage: String = "This is your own entity. Action can not be completed."
     
-    static let  GoogleRouteAPIKY: String =  "AIzaSyDomXthqkseAKF-CQj_T3xXWtoREAgXW8w"
+    static let  GoogleRouteAPIKY: String =  ""
     
-    static let GoogleAPIKEY: String = "AIzaSyA7WiqxLmskrzzZ-2BZ8z4KBYOKdsXpPak"
+    static let GoogleAPIKEY: String = ""
     static let appName = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String ?? ""
     static let fontNavBar: UIFont? = UIFont(name: "LucidaGrande-Bold", size: 20.0)
     static let fontLight: String = "LucidaGrande"
